@@ -1,0 +1,220 @@
+.trafficlightLeft{
+  width: 100px;
+  height: 300px;
+  background-color: #434343;
+  float: left;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.trafficlight-mini-raight{
+  /*clear: both;*/
+  width: 100px;
+  height: 100px;
+  background-color: #434343;
+  float: left;
+  margin-top: 200px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.trafficlight {
+  width: 100px;
+  height: 300px;
+  background-color: #434343;
+  float: right;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: -810px;
+}
+
+.timer{
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background-color: #484848;
+  z-index: 2;
+  margin: 0px auto;
+  left: 250px;
+  top: 42px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.timer .num{
+  margin-top: 26px;
+  text-align: center;
+  bottom: 10px;
+  font-size:45px;
+  font-weight: bold;
+  background-color: #4d5554;
+  border-radius: 20px;
+}
+.timer-holder-top{
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 20px;
+  background-color: #303030;
+  top: 60px;
+  left: 300px;
+}
+.timer-holder-bottom{
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 20px;
+  background-color: #303030;
+  top: 130px;
+  left: 300px;
+}
+.sub-light-raight{
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background-color: #484848;
+  z-index: 2;
+  /*margin: 0px auto 0px auto;*/
+  left: 1570px;
+  top: 177px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.sub-light{
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background-color: #484848;
+  z-index: 2;
+  margin: 0px auto 0px auto;
+  left: 280px;
+  top: 210px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.timer-holder-top-r{
+  position: relative;
+  /*z-index: -1;*/
+  width: 50px;
+  height: 20px;
+  background-color: #303030;
+  /*margin: 0 auto;*/
+  /*top: 0px;*/
+  /*left: 215px;*/
+}
+.sub-holder-top{
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 20px;
+  background-color: #303030;
+  top: 230px;
+  left: 245px;
+}
+.sub-holder-bottom{
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 20px;
+  background-color: #303030;
+  top: 280px;
+  left: 245px;
+}
+.pole{
+float: right;
+  width: 30px;
+  height: 500px;
+  background-color: #333333;
+  margin-right: 40px;
+  margin-top: -520px;
+  clear: both;
+}
+.poleLeft{
+  float: left;
+  margin-left: 40px;
+  width: 30px;
+  height: 500px;
+  background-color: #282828;
+  clear: both;
+}
+.bpole{
+  float: right;
+  width: 60px;
+  height: 30px;
+  background-color: #282828;
+  margin-right: 25px;
+  margin-top: -25px;
+  clear: both;
+}
+.bpoleLeft{
+  float: left;
+  margin-left: 25px;
+  width: 60px;
+  height: 30px;
+  background-color: #282828;
+  clear: both;
+}
+
+.lamp{
+  border-radius: 100%;
+  width: 80;
+  height: 80;
+  padding: 45px;
+  margin: 5px;
+}
+.lampR{
+  border-radius: 100%;
+  width: 80;
+  height: 80;
+  padding: 35px;
+  /*margin: 5px;*/
+  /*margin-top: 0px;*/
+  margin-left: 3px;
+}
+#human{
+  margin: 0 auto 0 auto;
+}
+
+
+.lamp.red{
+  background-color: #331111;
+}
+
+.lamp.yellow{
+  background-color: #222211;
+}
+
+.lamp.green{
+  background-color: #113311;
+}
+
+.trace-l{
+  position: absolute;
+  width: 1580px;
+  height: 250px;
+  padding: 30px;
+  background-color: #597577;
+  margin-top: 350px;
+  margin-left: 90px;
+  border: 5px solid yellow;
+}
+.trace-r{
+  position: absolute;
+  width: 250px;
+  height: 552px;
+  padding: 30px;
+  background-color: #597577;
+  margin-top: 350px;
+  margin-left: 750px;
+  border: 5px solid yellow;
+}
+.crosswalk-l{
+  position: relative;
+  width: 580px;
+  height: 350px;
+  padding: 30px;
+  background-color: #367714;
+  margin-top: 350px;
+  margin-left: 90px;
+  border: 5px solid yellow;
+  clear: both;
+}
