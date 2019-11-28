@@ -6,6 +6,15 @@
   padding: 10px;
   border-radius: 15px;
 }
+.trafficBridge{
+  width: 100px;
+  height: 300px;
+  background-color: #434343;
+  /*float: left;*/
+  margin-left: 850px;
+  padding: 10px;
+  border-radius: 15px;
+}
 
 .trafficlight-mini-raight{
   /*clear: both;*/
@@ -14,6 +23,29 @@
   background-color: #434343;
   float: left;
   margin-top: 200px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.trafficlight-mini-left{
+position: absolute;
+  left: 1595px;
+  top: 220px;
+  width: 100px;
+  height: 100px;
+  background-color: #434343;
+  /*float: right;*/
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.trafficlight-next-raight{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #434343;
+  /*float: right;*/
+  left: 980px;
+  margin-top: -125px;
   padding: 10px;
   border-radius: 15px;
 }
@@ -58,6 +90,15 @@
   top: 60px;
   left: 300px;
 }
+.timer-holder-top-r{
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 20px;
+  background-color: #303030;
+  top: 60px;
+  left: 550px;
+}
 .timer-holder-bottom{
   position: absolute;
   z-index: -1;
@@ -73,12 +114,12 @@
   height: 100px;
   background-color: #484848;
   z-index: 2;
-  /*margin: 0px auto 0px auto;*/
-  left: 1570px;
-  top: 177px;
+  left: 1500px;
+  top: 220px;
   padding: 10px;
   border-radius: 15px;
 }
+
 .sub-light{
   position: absolute;
   width: 60px;
@@ -86,7 +127,7 @@
   background-color: #484848;
   z-index: 2;
   margin: 0px auto 0px auto;
-  left: 280px;
+  left: 260px;
   top: 210px;
   padding: 10px;
   border-radius: 15px;
@@ -209,12 +250,111 @@ float: right;
 }
 .crosswalk-l{
   position: relative;
-  width: 580px;
-  height: 350px;
+  width: 100px;
+  height: 240px;
   padding: 30px;
-  background-color: #367714;
-  margin-top: 350px;
-  margin-left: 90px;
+  background-color: #efece1;
+  margin-top: -30px;
+  margin-left: 50px;
   border: 5px solid yellow;
+  /*clear: both;*/
+}
+.crosswalk-r{
+  position: relative;
+  width: 100px;
+  height: 240px;
+  padding: 30px;
+  background-color: #efece1;
+  margin-top: -30px;
+  margin-left: 700px;
+  border: 5px solid yellow;
+}
+
+.crosswalk-round{
+  position: relative;
+  width: 240px;
+  height: 100px;
+  padding: 30px;
+  background-color: #efece1;
+  margin-top: 50px;
+  margin-left: -30px;
+  border: 5px solid yellow;
+}
+.crosswalk-round-line{
+  position: relative;
+  width: 10px;
+  height: 150px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: -30px;
+  margin-left: 0px;
+}
+.crosswalk-round-linee{
   clear: both;
+  position: relative;
+  width: 10px;
+  height: 140px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: -160px;
+  margin-left: 50px;
+}
+.crosswalk-round-linef{
+  clear: both;
+  position: relative;
+  width: 10px;
+  height: 150px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: -160px;
+  margin-left: 100px;
+}
+.crosswalk-round-lined{
+  clear: both;
+  position: relative;
+  width: 10px;
+  height: 150px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: -160px;
+  margin-left: 150px;
+}
+.crosswalk-round-linec{
+  clear: both;
+  position: relative;
+  width: 10px;
+  height: 150px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: -160px;
+  margin-left: 200px;
+}
+.crosswalk-round-lines{
+  clear: both;
+  position: relative;
+  width: 10px;
+  height: 150px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+.crosswalk-line{
+  position: relative;
+  width: 150px;
+  height: 10px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.crosswalk-linet{
+  position: relative;
+  width: 150px;
+  height: 10px;
+  padding: 5px;
+  background-color: #efe54b;
+  margin-top: 25px;
+  margin-left: -30px;
 }
